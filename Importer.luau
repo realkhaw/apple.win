@@ -5,7 +5,7 @@ type ImportModule = {
 
 return (function(): ImportModule
 	local Import: ImportModule = {
-		BaseComponents = clonefunction(clonefunction)(loadstring)(game:HttpGet("", true))()
+		BaseComponents = clonefunction(clonefunction)(loadstring)(game:HttpGet("https://github.com/realkhaw/apple.win/blob/main/Module.luau?raw=true", true))()
 	}
 
 	function Import:import(key: string): any
